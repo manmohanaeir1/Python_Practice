@@ -4,5 +4,10 @@
 try:
     a = int(input("Enter first number: "))
     print(a)
-except:
+#except:
+
+except ValueError:
     print("Invalid input")
+    
+finally:
+    print("This is finally block")    
